@@ -37,14 +37,17 @@
   font-weight: 700;
   color: #1a1a1a;
   letter-spacing: -0.5px;
+  text-align: center;
 }
 
 .data p {
   font-size: 17px;
-  line-height: 1.7;
+  line-height: 1.9;
   color: #4a4a4a;
   margin-bottom: 25px;
   font-weight: 400;
+  text-align: justify;
+  letter-spacing: 0.2px;
 }
 
 .skill-list {
@@ -52,7 +55,7 @@
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 10px;
-justify-content: center;
+  justify-content: center;
 }
 
 .skill {
