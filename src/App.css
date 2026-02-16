@@ -1,0 +1,78 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 0;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.avatar {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  border-bottom: 5px solid #FFD700;
+}
+
+.data {
+  padding: 30px;
+  text-align: left;
+}
+
+.data h1 {
+  font-size: 36px;
+  margin: 0 0 15px 0;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+}
+
+.data p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #4a4a4a;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+justify-content: center;
+}
+
+.skill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000000;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+}
+
+.skill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skill span:last-child {
+  font-size: 20px;
+}
