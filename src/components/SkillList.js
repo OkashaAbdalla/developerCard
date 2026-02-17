@@ -1,4 +1,4 @@
-import Skill from './Skill';
+import Skill from "./Skill";
 
 function SkillList() {
   return (
@@ -8,7 +8,6 @@ function SkillList() {
       <Skill skill="HTML+CSS" emoji="👍" color="#E34F26" />
       <Skill skill="JavaScript" emoji="✨" color="#F7DF1E" />
       <Skill skill="React" emoji="💪" color="#61DAFB" />
-
     </div>
   );
 }
